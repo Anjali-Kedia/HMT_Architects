@@ -1,0 +1,352 @@
+/* Logo */
+
+header .logo-container img{
+  width:60px;
+}
+
+header.top-nav {
+  padding: 20px;
+}
+
+.work a, .work p {
+  color: #fff0;
+}
+
+a.logo-container{
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+@media screen and (min-width:992px){
+  header .logo-container img{
+      width:60px;
+  }
+}
+
+/* Nav */
+
+.nav-icon{
+  filter: invert(1);
+}
+
+.full-menu, .full-menu a, .full-menu li{
+  color: white!important;
+}
+
+/* Portfolio Hero */
+
+.hero-container{
+  position: relative;
+  text-align: left;
+  color: white;
+  background-color: #000;
+}
+
+.hero-container img {
+  height: 60vh;
+  left: -200px;
+  top: -200px;
+  width: 100%;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  transform-origin: center center;
+  opacity: 0.5;
+}
+
+@media screen and (max-width:992px){
+  .hero-container img {
+    height: 30vh;
+    left: -200px;
+    top: -200px;
+    width: 100%;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    transform-origin: center center;
+    opacity: 0.5;
+  }
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.hero-title {
+  font-weight:800;
+  font-size: calc(1rem + 3.275vw);
+  color: white;
+}
+
+.hero-subheading{
+color: #ffffff;
+font-weight: 500;
+font-size: calc(1rem + 0.5625vw);
+}
+
+/* Footer Logo */
+
+.x-filter{
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+/* DropShadow */
+
+.dropshadow{
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+
+/* Banner */
+
+.xsmall {
+    font-size: 120%;
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+/* Banner 2 */
+
+.x-align-center{
+  text-align: center;
+}
+
+.x-sub-heading{
+  color: #7e7f80;
+  text-align: center;
+}
+
+/* Events */
+
+.md-text-align-center{
+  text-align: center;
+}
+
+/* Contact */
+
+.x-display-1x {
+  font-size: calc(1.725rem + 4.275vw);
+}
+
+.x-btn-wide{
+  width: 100%;
+}
+
+/* Single Portfolio */
+
+.text-small{
+  font-size: 1rem;
+}
+
+/* Arrow Button */
+
+.text-bold{
+  font-weight: 600;
+}
+
+/* Previous Text */
+
+.text-previous{
+  font-size: 0.7rem;
+  vertical-align: bottom;
+  letter-spacing:10px;
+  color: #000;
+}
+
+.text-previous:hover{
+  text-decoration: line-through;
+  color: #000;
+}
+
+/* ------------------------------------------------ About Us -------------------------------------------------------- */
+
+/* HR */
+
+hr{
+  border-top: 1px solid rgb(0 0 0 / 20%);
+}
+
+
+/* Hero */
+
+.hero-container-60{
+  position: relative;
+  text-align: left;
+  color: white;
+  background-color: #000;
+}
+
+.hero-container-60 img {
+  height: 60vh;
+  left: -200px;
+  top: -200px;
+  width: 100%;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  transform-origin: center center;
+  opacity: 0.5;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-title-60 {
+  font-weight: 700;
+  font-size: calc(1.725rem + 4.275vw);
+  color: white;
+}
+
+@media screen and (max-width:992px){
+  .hero-container-60 img {
+    height: 60vh;
+    left: -200px;
+    top: -200px;
+    width: 100%;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    transform-origin: center center;
+    opacity: 0.5;
+  }
+
+  .centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-title-60 {
+    font-weight: 700;
+    font-size: calc(2.25rem + 4.275vw);
+    color: white;
+  }
+
+}
+
+@media screen and (max-width:450px){
+  .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+/* Container 70 */
+
+.container-1080 {
+  max-width: 95%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px){
+.container-1080 {
+    max-width: 85%;
+}
+}
+
+@media (min-width: 1400px){
+.container-1080 {
+    max-width: 1080px;
+}
+}
+
+/* Testimonial */
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+.testimonial {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  font-size: 1rem;
+  max-width: 45%;
+  min-width: 300px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #000000;
+  margin:1.5rem;
+}
+
+.testimonial *,
+.testimonial *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.testimonial figcaption {
+  padding: 13% 10% 12%;
+}
+
+.testimonial figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.testimonial h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.testimonial h4 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+/* -------------------------------------------------Contact Us--------------------------------------------------- */
+
+iframe {
+  width:100%;
+  height:60vh;
+  border: none;
+}
+
+
+
+
+
